@@ -68,7 +68,7 @@ const Header = () => {
               </Button>
               <button type="button">
                 <Menu
-                  className="h-6 w-6 cursor-pointer"
+                  className="h-6 w-6 cursor-pointer text-white"
                   onClick={() => setOpen(!open)}
                 />
               </button>

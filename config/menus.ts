@@ -14,20 +14,20 @@ export interface MenuItemProps {
 
 export const menus: MenuItemProps[] = [
   {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
     title: "Services",
     href: "/services",
   },
   {
-    title: "Classes",
-    href: "/classes",
-  },
-  {
-    title: "Gallery",
-    href: "/gallery",
-  },
-  {
-    title: "Events",
-    href: "/events",
+    title: "Menu",
+    href: "/menu",
   },
   {
     title: "Blogs",
@@ -36,17 +36,6 @@ export const menus: MenuItemProps[] = [
   {
     title: "Shops",
     href: "/products",
-  },
-
-  {
-    title: "About me",
-    href: "/about",
-    child: [
-      {
-        title: "Company",
-        href: "/about/company",
-      },
-    ],
   },
 
   {

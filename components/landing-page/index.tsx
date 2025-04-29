@@ -5,9 +5,9 @@ import Footer from "./footer";
 
 import AboutUs from "./about-us";
 import Blogs from "./blogs/blogs";
-import { CarouselDemo } from "./carosul";
 
 import TrainingSchedule from "../schedule";
+import { CarouselDemo } from "./carosul";
 import CounterPage from "./counter";
 import Faq from "./faq";
 import Header from "./header";
